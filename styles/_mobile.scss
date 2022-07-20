@@ -1,0 +1,97 @@
+// mobile layout
+.card {
+    background-color: $clr-violet;
+    border-radius: 8px;
+    color: $clr-white;
+    max-width: pxToRem(327);
+    margin: pxToRem(24) 0 0 0;
+    padding: pxToRem(26) pxToRem(33) pxToRem(30) pxToRem(32);
+    width: 100%;
+}
+
+.card:nth-child(1) {
+    background-image: url(../images/bg-pattern-quotation.svg);
+    background-position-x: right pxToRem(24);
+    background-position-y: top;
+    background-repeat: no-repeat;
+    color: $clr-white;
+}
+
+.card:nth-child(2) {
+    background-color: $clr-very-dark-grayish-blue;
+}
+
+.card:nth-child(3) {
+    background-color: $clr-white;
+    color: $clr-very-dark-grayish-blue;
+}
+
+.card:nth-child(4) {
+    background-color: $clr-dark-blue;
+}
+
+.card:nth-child(5) {
+    background-color: $clr-white;
+    color: $clr-very-dark-grayish-blue;
+}
+
+.profile {
+    display: flex;
+}
+
+.profile__photo {
+    border-radius: 50%;
+    height: pxToRem(28);
+    outline: $clr-white-opac-50 2px solid;
+    width: pxToRem(28);
+}
+
+.profile__info {        
+    padding: 0 0 0 pxToRem(17);
+}
+
+.profile__name {
+    color: $clr-white;
+    font-weight: $fw-bold;
+}
+
+.card:nth-child(3) .profile__name {
+    color: $clr-very-dark-grayish-blue;
+}
+
+.card:nth-child(5) .profile__name {
+    color: $clr-very-dark-grayish-blue;
+}
+
+.profile__status {
+    color: $clr-white-opac-50;
+    font-size: $fs-status;
+}
+
+.card:nth-child(3) .profile__status {
+    color: $clr-dark-blue-opac-50;
+}
+
+.card:nth-child(5) .profile__status {
+    color: $clr-dark-blue-opac-50;
+}
+
+.card__title {
+    font-size: $fs-title;
+    font-weight: $fw-bold;
+    padding: pxToRem(18) 0 0 0;
+}
+
+.card__testimony {
+    color: $clr-white-opac-70;
+    line-height: 1.4;
+    padding: pxToRem(15) 0 0 0;
+}
+
+.card:nth-child(3) .card__testimony {
+    color: $clr-dark-blue-opac-70;
+}
+
+.card:nth-child(5) .card__testimony {
+    color: $clr-dark-blue-opac-70;
+}
