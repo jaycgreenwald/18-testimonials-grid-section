@@ -1,0 +1,184 @@
+html {
+  box-sizing: border-box;
+  font-size: 13px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+body {
+  align-items: center;
+  background-color: hsl(210deg, 46%, 95%);
+  display: flex;
+  flex-direction: column;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 1.54rem 0 3.08rem 0;
+}
+
+@media screen and (min-width: 69.23rem) {
+  .page {
+    -moz-column-gap: 2.31rem;
+         column-gap: 2.31rem;
+    display: grid;
+    grid-template-columns: repeat(4, 255px);
+    grid-template-rows: 21.69rem 20.54rem;
+    row-gap: 1.85rem;
+  }
+}
+.card {
+  background-color: hsl(263deg, 55%, 52%);
+  border-radius: 8px;
+  color: hsl(0deg, 0%, 100%);
+  max-width: 25.15rem;
+  margin: 1.85rem 0 0 0;
+  padding: 2rem 2.54rem 2.31rem 2.46rem;
+  width: 100%;
+}
+
+.card--bg-quote-marks {
+  background-image: url(../images/bg-pattern-quotation.svg);
+  background-position-x: right 1.85rem;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  color: hsl(0deg, 0%, 100%);
+}
+
+.card--bg-dark-gray-blue {
+  background-color: hsl(217deg, 19%, 35%);
+}
+
+.card--bg-white {
+  background-color: hsl(0deg, 0%, 100%);
+  color: hsl(217deg, 19%, 35%);
+}
+
+.card--bg-dark-blue {
+  background-color: hsl(219deg, 29%, 14%);
+}
+
+.profile {
+  display: flex;
+}
+
+.profile__photo {
+  border-radius: 50%;
+  height: 2.15rem;
+  outline: hsla(0deg, 0%, 100%, 0.5) 2px solid;
+  width: 2.15rem;
+}
+
+.profile__info {
+  padding: 0 0 0 1.31rem;
+}
+
+.profile__name {
+  color: hsl(0deg, 0%, 100%);
+  font-weight: 600;
+}
+
+.profile__name--clr-dark-gray-blue {
+  color: hsl(217deg, 19%, 35%);
+}
+
+.profile__status {
+  color: hsla(0deg, 0%, 100%, 0.5);
+  font-size: 11px;
+}
+
+.profile__status--dark-blue {
+  color: hsla(219deg, 29%, 14%, 0.5);
+}
+
+.card__title {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 1.38rem 0 0 0;
+}
+
+.card__testimony {
+  color: hsla(0deg, 0%, 100%, 0.7);
+  line-height: 1.4;
+  padding: 1.15rem 0 0 0;
+}
+
+.card__testimony--dark-blue {
+  color: hsla(219deg, 29%, 14%, 0.7);
+}
+
+@media screen and (min-width: 69.23rem) {
+  .card {
+    background-color: hsl(263deg, 55%, 52%);
+    border-radius: 8px;
+    color: hsl(0deg, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    max-width: none;
+    margin: 0;
+    padding: 2rem 2.54rem 2.31rem 2.46rem;
+    width: 100%;
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  .card--bg-quote-marks {
+    background-position-x: right 6.15rem;
+  }
+  .card:nth-child(2) {
+    background-color: hsl(217deg, 19%, 35%);
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+  .card:nth-child(3) {
+    background-color: hsl(0deg, 0%, 100%);
+    color: hsl(217deg, 19%, 35%);
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .card:nth-child(4) {
+    grid-row: 2/3;
+    grid-column: 2/4;
+  }
+  .card:nth-child(5) {
+    background-color: hsl(0deg, 0%, 100%);
+    color: hsl(217deg, 19%, 35%);
+    grid-column: 4/5;
+    grid-row: 1/3;
+  }
+}/*# sourceMappingURL=main.css.map */
