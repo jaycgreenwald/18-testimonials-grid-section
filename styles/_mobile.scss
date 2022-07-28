@@ -1,0 +1,80 @@
+// mobile layout
+.card {
+    background-color: $clr-violet;
+    border-radius: 8px;
+    color: $clr-white;
+    max-width: pxToRem(327);
+    margin: pxToRem(24) 0 0 0;
+    padding: pxToRem(26) pxToRem(33) pxToRem(30) pxToRem(32);
+    width: 100%;
+}
+
+.card--bg-quote-marks {
+    background-image: url(../images/bg-pattern-quotation.svg);
+    background-position-x: right pxToRem(24);
+    background-position-y: top;
+    background-repeat: no-repeat;
+    color: $clr-white;
+}
+
+.card--bg-dark-gray-blue {
+    background-color: $clr-dark-grayish-blue;
+}
+
+.card--bg-white {
+    background-color: $clr-white;
+    color: $clr-dark-grayish-blue;
+}
+
+.card--bg-dark-blue {
+    background-color: $clr-dark-blue;
+}
+
+.profile {
+    display: flex;
+}
+
+.profile__photo {
+    border-radius: 50%;
+    height: pxToRem(28);
+    outline: $clr-white-opac-50 2px solid;
+    width: pxToRem(28);
+}
+
+.profile__info {        
+    padding: 0 0 0 pxToRem(17);
+}
+
+.profile__name {
+    color: $clr-white;
+    font-weight: $fw-bold;
+}
+
+.profile__name--clr-dark-gray-blue {
+    color: $clr-dark-grayish-blue;
+}
+
+.profile__status {
+    color: $clr-white-opac-50;
+    font-size: $fs-status;
+}
+
+.profile__status--dark-blue {
+    color: $clr-dark-blue-opac-50;
+}
+
+.card__title {
+    font-size: $fs-title;
+    font-weight: $fw-bold;
+    padding: pxToRem(18) 0 0 0;
+}
+
+.card__testimony {
+    color: $clr-white-opac-70;
+    line-height: 1.4;
+    padding: pxToRem(15) 0 0 0;
+}
+
+.card__testimony--dark-blue {
+    color: $clr-dark-blue-opac-70;
+}
