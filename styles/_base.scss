@@ -10,13 +10,3 @@ body {
     min-height: 100vh;
     padding: pxToRem(20) 0 pxToRem(40) 0;
 }
-
-@media screen and (min-width: pxToRem(900)) {
-    .page {
-        column-gap: pxToRem(30);
-        display: grid;
-        grid-template-columns: repeat(4, 255px);
-        grid-template-rows: pxToRem(282) pxToRem(267);
-        row-gap: pxToRem(24);
-    }
-}
