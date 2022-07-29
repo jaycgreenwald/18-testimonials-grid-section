@@ -25,13 +25,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://jaycgreenwald.github.io/18-testimonials-grid-section/](https://jaycgreenwald.github.io/18-testimonials-grid-section/)
 
 ## My process
 
@@ -60,9 +60,6 @@ How to create a VS Code snippet. Which I used to insert my new SASS function tha
 https://code.visualstudio.com/docs/editor/userdefinedsnippets
 
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```scss
 // functions 
 @function pxToRem($pxValue) {
@@ -70,29 +67,23 @@ https://code.visualstudio.com/docs/editor/userdefinedsnippets
     @return #{$remValue}rem;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
 
 ### Continued development
 
-  1. Should I be using rem unit for EVERYTHING? Like, what are the cases in which I would want to use px as the unit. Maybe investigate this?
+  1. Should I be using rem unit for EVERYTHING? Like, what are the cases in which I would want to use px instead of REM as the unit?
   2. Can grid automatically layout content? I think this answer may be depends...? I started watching Jen Simmons grid videos so I'm on my way to obtaining that sacred knowledge.
   3. The rest of it (moves arm in sweeping motion).
 
 
 ### Useful resources
 
-Mostly sourced in "What I Learned" above. Not this one though and it appears to be a dandy:
+Mostly sourced in "What I Learned" above. Here's a bonus resource and it appears to be a dandy:
 
  - [YouTube Channel Layout Land by Jen Simmons](https://www.youtube.com/channel/UC7TizprGknbDalbHplROtag)
 
 
 ## Author
 
-- Website - [My GitHub](https://www.your-site.com)
+- Website - [My GitHub](https://github.com/jaycgreenwald)
 - Frontend Mentor - [@jaycgreenwald](https://www.frontendmentor.io/profile/jaycgreenwald)
 - Twitter - [@jaycgreenwald](https://www.twitter.com/jaycgreenwald)
