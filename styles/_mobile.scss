@@ -1,7 +1,7 @@
 // mobile layout
 .card {
     background-color: $clr-violet;
-    border-radius: 8px;
+    border-radius: pxToRem(8);
     color: $clr-white;
     max-width: pxToRem(327);
     margin: pxToRem(24) 0 0 0;
@@ -37,7 +37,7 @@
 .profile__photo {
     border-radius: 50%;
     height: pxToRem(28);
-    outline: $clr-white-opac-50 2px solid;
+    outline: $clr-white-opac-50 pxToRem(2) solid;
     width: pxToRem(28);
 }
 

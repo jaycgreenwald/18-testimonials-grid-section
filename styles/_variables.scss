@@ -21,6 +21,6 @@ $fw-regular: 500;
 $fw-bold: 600;
 
 // font-size
-$fs-default: 13px;
-$fs-title: 20px;
-$fs-status: 11px;
+$fs-default: pxToRem(13);
+$fs-title: pxToRem(20);
+$fs-status: pxToRem(11);
